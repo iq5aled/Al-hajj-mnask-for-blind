@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="al.hajj.mnask.pkgfor.blind.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="134.0" layoutY="51.0" onAction="#p1Action" text="part1" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="button1" layoutX="134.0" layoutY="100.0" onAction="#p2Action" text="part2" />
+      <Button fx:id="button2" layoutX="134.0" layoutY="148.0" onAction="#p3Action" text="part3" />
+      <Label layoutX="134.0" layoutY="14.0" text="The Hajj" />
+    </children>
+</AnchorPane>
